@@ -1,0 +1,2 @@
+# Python_Para_Analise_de_Dados_e_Data_Science
+📊 Fundamentos de Linguagem Python Para Análise de Dados e Data Science Curso introdutório oferecido pela Data Science Academy, focado nos principais conceitos da linguagem Python aplicados à análise de dados. Aborda desde a instalação do ambiente com Anaconda até estruturas de dados, manipulação com bibliotecas como pandas, lógica de programação e primeiros passos na área de Data Science.
