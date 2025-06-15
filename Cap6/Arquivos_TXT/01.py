@@ -12,7 +12,15 @@ arquivo = open(os.path.join('arquivos/cientista.txt'), 'w')
 
 # Gravando os dados no arquivo
 for palavra in texto.split():
-    arquivo.write(palavra + '')
+    arquivo.write(palavra + ' ')
 
 # Fechando o arquivo
 arquivo.close()
+
+
+# Lendo o Arquivo
+arquivo = open('arquivos/cientista.txt', 'r')
+conteudo = arquivo.read()
+arquivo.close()
+
+print(conteudo)
