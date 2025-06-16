@@ -1,0 +1,37 @@
+Início
+
+    Definir lista_de_palavras com várias palavras possíveis
+    Escolher aleatoriamente uma palavra_secreta da lista_de_palavras
+    Criar uma lista letras_descobertas com "_" para cada letra da palavra_secreta
+    Definir tentativas_restantes como 6
+    Criar lista letras_erradas vazia
+
+    Enquanto tentativas_restantes > 0 E "_" estiver em letras_descobertas:
+
+        Mostrar letras_descobertas ao jogador
+        Mostrar letras_erradas
+        Mostrar número de tentativas_restantes
+
+        Pedir ao jogador uma letra (letra_jogada)
+        Converter letra_jogada para minúscula
+
+        Se letra_jogada já estiver em letras_descobertas ou letras_erradas:
+            Mostrar mensagem "Você já tentou essa letra"
+            Continuar para o próximo loop
+
+        Se letra_jogada estiver em palavra_secreta:
+            Para cada posição i na palavra_secreta:
+                Se palavra_secreta[i] == letra_jogada:
+                    letras_descobertas[i] = letra_jogada
+        Senão:
+            Adicionar letra_jogada à letras_erradas
+            Reduzir tentativas_restantes em 1
+
+    Fim Enquanto
+
+    Se "_" não estiver em letras_descobertas:
+        Mostrar "Parabéns! Você venceu. A palavra era: " + palavra_secreta
+    Senão:
+        Mostrar "Você perdeu! A palavra era: " + palavra_secreta
+
+Fim
