@@ -21,3 +21,4 @@ print('-'*25)
 
 print(list(filter(lambda x: x%2==0, lista)))
 print(list(filter(lambda num: num > 8, lista)))
+x
