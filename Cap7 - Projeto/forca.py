@@ -1,4 +1,4 @@
-# Projeto 1 - Desenvolvimento de Game em Linguagem Python - Versão 1
+# Projeto 1 - Desenvolvimento de Game em Linguagem Python 
 
 # Import
 import random
@@ -154,6 +154,7 @@ def game():
             # Se todos os espaços foram preenchidos, o jogo acabou
             if "_" not in tabuleiro:
                 print(f'\nVocê venceu! A palavra era: {palavra}')
+                break
 
         else:
             print('Ops. Essa letra não está na palavra!')
