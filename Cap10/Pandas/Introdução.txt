@@ -1,0 +1,24 @@
+O Pandas é uma biblioteca poderosa e muito popular da linguagem Python, especialmente voltada para manipulação e análise de dados. Ele é amplamente utilizado em áreas como ciência de dados, análise estatística, engenharia de dados e finanças.
+
+
+O que o Pandas oferece:
+
+
+- Estruturas de dados eficientes, como Series (dados unidimensionais) e DataFrame (dados tabulares bidimensionais).
+
+- Ferramentas para leitura e escrita de dados em diversos formatos, como CSV, Excel, JSON, SQL, entre outros.
+
+- Funcionalidades para filtragem, ordenação, agregação, transformação e limpeza de dados.
+
+- Suporte a operações vetorizadas (rápidas e otimizadas) sobre grandes conjuntos de dados.
+
+- Tratamento de dados ausentes (missing values) de forma flexível.
+
+- Operações de junção, mesclagem e combinação de diferentes fontes de dados.
+
+- Recursos para trabalhar com séries temporais, o que é útil para análises com datas e períodos.
+
+- Integração fácil com outras bibliotecas do ecossistema Python, como NumPy, Matplotlib e Scikit-learn.
+
+
+Em resumo, o Pandas facilita muito o trabalho com dados estruturados, permitindo que você se concentre na análise e na lógica, em vez de se preocupar com tarefas manuais e repetitivas.
