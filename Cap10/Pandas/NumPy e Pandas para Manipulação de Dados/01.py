@@ -14,11 +14,6 @@ from pandas import DataFrame
 # Converte o dicionário em um dataframe
 df = DataFrame(dados)
 
-# Visualiza as 5 primeiras linhas
-print(df.head())
-
-print(type(df))
-
 # Reorganizando as colunas
 print(DataFrame(dados, columns = ['Estado', 'Taxa Desemprego', 'Ano']))
 
@@ -28,25 +23,6 @@ print('-='*32)
 df2 = DataFrame(dados, columns = ['Estado', 'Taxa Desemprego', 'Taxa Crescimento', 'Ano'],
                         index = ['estado1', 'estado2', 'estado3', 'estado4', 'estado5'])
 
-print(df2)
+# _____________________________
 
-print('-'*15)
-
-# Imprimindo apenas uma coluna do DataFrame
-print(df2['Estado'])
-
-print('-'*15)
-
-# Imprimindo apenas duas colunas do DataFrame
-print(df2[['Taxa Desemprego', 'Ano']])
-
-print('-'*15)
-print(df2.values)
-print('-'*15)
-print(df2.dtypes)
-print('-'*15)
-print(df2.columns)
-print('-'*15)
-print(df2.index)
-print('-'*15)
-print(df2.filter(items = ['estado3'], axis = 0))
+print()
