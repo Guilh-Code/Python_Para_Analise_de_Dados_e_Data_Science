@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Primeiro importamos um dataset
-dsa_df = pd.read_csv("C:/Users/Guilh/OneDrive/Documentos/Atividades Curso/Python_Para_Analise_de_Dados_e_Data_Science/Cap10/Pandas/Preenchendo Valores Ausentes e Query de Dados no DataFrame/dataset.csv")
+dsa_df = pd.read_csv("C:/Users/Guilh/OneDrive/Documentos/Atividades Curso/Python_Para_Analise_de_Dados_e_Data_Science/Cap10/Pandas/Manipulando Arquivo em CSV/dataset.csv")
 print()
 
 # Checamos os valores mínimo e máximo da coluna Valor_Venda
